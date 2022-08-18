@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scorer.css" />
+    <title>Badminton Scorer</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="column">
+        <h1 class="header">BADMINTON SCORER</h1>
+        <div id="result"></div>
+        <h2 class="display">
+          <span id="P1display">0</span> to <span id="P2display">0</span>
+        </h2>
+        <span>
+          <b style="font-size:20pt;"> Playing to </b>
+          <select name="Limit" id="Limit">
+            <option value="7">7</option>
+          </select>
+        </span>
+        <div>
+          <button id="P1button" class="bt1">P1 Score +1</button>
+          <button id="P2button" class="bt2">P2 Score +1</button>
+          <button id="reset" class="rsbt">Reset</button>
+        </div>
+      </div>
+    </div>
+    <script src="scorer.js"></script>
+  </body>
+</html>

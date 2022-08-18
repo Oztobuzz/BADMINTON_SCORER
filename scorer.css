@@ -1,0 +1,64 @@
+.header{
+    color:darkslategray;
+    font-size: 30pt;
+    text-align: center;
+}
+.container {
+    margin: auto;
+    width: 35%;
+    height: 40%;
+    border: 1px solid rgb(0,0,0);
+    border-radius: 2cm;
+    padding: 1cm;
+}
+.display{
+    font-size: 50pt;
+    text-align: center;
+}
+select{
+    border-radius: 1cm;
+    cursor:pointer;
+    font-size: 12pt;
+    font-weight: 500;
+    text-align: center;
+    scale: 135%;
+    margin: 10pt;
+}
+
+button{
+    border-radius: 2cm;
+    scale: 125%;
+    text-align: center;
+    font-weight: 700;
+    padding:5px 15px;
+    margin: 10pt;
+    cursor:pointer;
+    align-items: center;
+
+}
+
+.bt1{
+    background-color:cyan;
+    color:black;
+    
+}
+.bt2{
+    background-color:brown;
+    color:cornsilk;
+}
+.rsbt{
+    background-color: aliceblue;
+}
+
+.notAllowed{
+    opacity: 40%;
+    cursor:not-allowed;
+}
+.lose{
+    color:red;
+    transition: 0.3s;
+}
+.win{
+    color:darkcyan;
+    transition: 0.3s;
+}
